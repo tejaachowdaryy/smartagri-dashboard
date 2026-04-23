@@ -1,0 +1,25 @@
+App:
+  Location: Sudan
+  Name: SmartAgri Dashboard
+  Version: 1.0.0
+Client:
+  Location: Sudan
+  Name: FGM
+Data:
+  crop_csv: ./data/crop_data.csv
+  fields_geojson: ./data/fields.geojson
+GEE:
+  use_demo_mode: false        # Set to false to use real GEE data
+  service_account: ''         # Leave blank if using earthengine authenticate
+  key_file: ''                # Leave blank if using earthengine authenticate
+  project: 'miniproject-489919'                 # REQUIRED: Add your GEE project ID e.g. "ee-yourname"
+Models:
+  crop_model: ./models/crop_model.pkl
+  encoders: ./models/encoders.pkl
+  meta: ./models/model_meta.json
+  yield_model: ./models/yield_model.pkl
+Satellite:
+  cloud_filter: 20
+  collection: COPERNICUS/S2_SR_HARMONIZED
+  default_year: 2023
+  image_size: 512
