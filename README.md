@@ -27,7 +27,7 @@ forecasting to help farmers make data-driven decisions.
 ---
 
 ## 🚀 Live Demo
-👉 [[Click here to open the app](https://smartagri-dashboard.streamlit.app/)
+👉 [Click here to open the app](https://smartagri-dashboard.streamlit.app/)
 
 ---
 
